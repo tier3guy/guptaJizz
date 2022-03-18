@@ -1,0 +1,24 @@
+#error-container{
+  padding-top: 7em;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#error-container h1{
+  font-family: var(--font-logo);
+  color: black;
+  letter-spacing: 2px;
+  font-weight: 550;
+}
+#error-container h2{
+  font-size: 5em;
+}
+
+#error-container span{
+  color: var(--light-red);
+}
+

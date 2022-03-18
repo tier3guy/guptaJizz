@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+
+
+:root{
+
+  /*      COLOR SCHEMA     */
+
+  --dark-red: #C50000;
+  --light-red: #E70000;
+  --gray: #F1F1F1;
+  --white: #FFFDEF;
+
+
+
+  /* FONT SCHEMA GOES HERE */
+
+  --font-main: 'Barlow';
+  --font-logo: 'Lobster Two';
+  
+}

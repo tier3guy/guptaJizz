@@ -1,0 +1,35 @@
+.our_Client{
+  padding: 0em;
+  height: 70vh;
+  background: var(--gray);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1{
+  font-weight: 600;
+  font-size: 4em;
+  color: var(--light-red);
+  margin-bottom: 0.4em;
+}
+
+.our_Client ul li{
+  display: inline;
+  padding: 0px 2em;
+  font-size: 1.2em;
+  color: var(--light-red);
+}
+
+@media screen and (max-width: 900px) {
+  .our_Client{
+    box-sizing: border-box;
+  }
+  h1{
+    padding: 0.5em;
+  }
+  .our_Client ul li{
+    padding: 0px 0.8em;
+  }
+}

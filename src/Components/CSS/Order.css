@@ -1,0 +1,73 @@
+.orders-container{
+  width: 65vw;
+  border: 3px solid var(--dark-red);
+  border-radius: 15px;
+  margin: 9em auto;
+  margin-bottom: 5em;
+  background: var(--white);
+  padding: 2em;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.primary{
+  color: var(--white);
+  background: var(--light-red) !important;
+  transition: all 0.2s linear;
+}
+
+.primary:hover{
+  color: var(--white);
+  background: var(--dark-red) !important;
+}
+
+h3{
+  padding: 15px;
+  background: var(--dark-red);
+  border-bottom: 4px solid var(--light-red);
+  color: var(--white);
+}
+
+.form-group{
+  margin: 5px 10px;
+}
+
+.form-group label{
+  text-align: start;
+  margin-bottom: 5px;
+  color: var(--dark-red);
+  font-size: 1.2em;
+}
+
+.g3{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.form-control{
+  border-bottom: 3px solid var(--gray);
+}
+
+.form-control:focus{
+  border: 1px solid var(--dark-red);
+  border-bottom: 3px solid var(--dark-red);
+}
+
+.orders-container p span{
+  font-size: 1.2em;
+  color: var(--light-red);
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+
+@media screen and (max-width: 900px) {
+  .orders-container{
+    width: 90vw;
+  }
+
+  .g3{
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,4 @@
+option:hover{
+  background-color: var(--dark-red) !important;
+  color: var(--white);
+}

@@ -1,0 +1,26 @@
+.modal h5{
+  font-family: var(--font-logo);
+  text-align: center;
+  font-size: 2em;
+  color: var(--dark-red);
+  text-decoration: none;
+  padding-right: 10px;
+}
+
+.modal-content {
+  border: 2px solid var(--dark-red);
+  border-radius: 7px;
+}
+
+.modal-dialog .primary {
+  padding: 12px;
+  margin: 0px;
+}
+
+.modal-header{
+  border: none;
+}
+
+.modal h6{
+  font-size: 1.2em;
+}

@@ -1,0 +1,20 @@
+.Menu{
+  min-height: 100vh;
+  padding: 3em 5em;
+  padding-top: 7em;
+  width: 100vw;
+  background: var(--white);
+}
+
+.food-container{
+  margin: 1.5em auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+  .food-container{
+    flex-direction: column;
+  }
+}
