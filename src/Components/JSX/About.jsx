@@ -1,24 +1,54 @@
 import React from 'react';
 import '../CSS/About.css';
 import owner from '../../Assets/owner.jpeg';
+import {NavLink} from 'react-router-dom';
 
 const About = () => {
   return (
     <section className = "about-section">
-      <h1>About <span style = {{color : 'var(--light-red)'}}>Us</span></h1>
+      <h1 className="text-center">About <span style = {{color : 'var(--light-red)'}}>Us</span></h1>
       <p>
-        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section.
+      Sitting in Gujrat and feeling like – ‘Yarr bengal ke street foods khane ko mil jaate toh mazaa aa jata.’
       </p>
 
       <p>
-        The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+      Don’t worry gupta ji hain a!
+      </p>
+      
+      <p>
+      guptaJizz is one the best Indian fast food delivery services. We have been working for past 10 years in the main streets of Kolkata but with lots of courage and support we started giving our services pan India for last 3-4 years. We have been worked on many states like Gujrat, Rajasthan, Odisha, Kerela and many more. 
+      </p>
+      
+      <p>
+      We feel blessed whenever a customer says ‘ummm – hmmm, kya baat hai gupta ji, mazaa aa gya’. We are building this brand with lots of efforts and passion. 
+      </p>
+      
+      <p>
+      What is most important for us? 
+      </p>
+      
+      <p>
+      Quality of food. Whenever we hear fast food. We will be like – ‘umm fast foods are good for the health.’ But gupta ji provides quality food, so no need to worry about your health.  
+      </p>
+      
+      <p>
+      What makes us different? 
+      </p>
+      
+      <p>
+      Majority of our customers are those who don’t takes ginger or garlic in their meal. So, your request we make fast foods without ginger-garlic also. 
+      </p>
+      
+      <p>
+      Toh fir soch kya rahe ho? Arrey apna party order abhi register karwao bhai.
       </p>
       
       <div className = "owner-class">
         <p>
           <i class="fas fa-quote-left"></i>
-          Even the world's most successful individuals have experienced their fair share of setbacks and hardships. There's much to learn from their challenges as well as their success. Luckily, they've condensed their wisdom into meaningful quotes that you can store for later use.
+          The path of the human heart passes through the stomach.
           <i class="fas fa-quote-right"></i>
+          <NavLink className="navItem nav-link lik" to="/order"> <span>Book your meal now.</span> </NavLink>
         </p>
         <img src = {owner} alt = "Owner Image"/>
       </div>

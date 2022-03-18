@@ -30,6 +30,25 @@
   outline: 3px solid var(--dark-red);
 }
 
+.owner-class p {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.lik{
+  padding: 0px;
+  color: var(--dark-red);
+  margin: 0px;
+}
+
+.lik:hover{
+  padding: 0px;
+  color: var(--dark-red);
+  margin: 0px;
+}
+
+
 .owner-class img{
   height: 13em;
   width: 13em;
