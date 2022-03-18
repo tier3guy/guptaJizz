@@ -43,3 +43,10 @@
   outline:none;
   box-shadow:none;
 }
+
+
+@media screen and (max-width: 900px) {
+  nav{
+    width: 100vw;
+  }
+}
