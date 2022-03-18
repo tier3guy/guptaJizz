@@ -24,19 +24,10 @@ h1{
 
 @media screen and (max-width: 900px) {
   .our_Client{
+    overflow-x: hidden;
     width: 100vw;
   }
-  h1{
-    padding: 0.5em;
-  }
   .our_Client ul{
-    display: flex;
-    margin: auto;
-    text-align: center;
-    padding : 18px;
-    justify-content: space-between;
-  }
-  .our_Client ul li{
-    padding: 1em;
+    display: none;
   }
 }
